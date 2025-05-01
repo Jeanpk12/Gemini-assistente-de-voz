@@ -113,7 +113,7 @@ function speakText(text) {
 // Funções de inicialização do chat
 async function startChat() {
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-preview-04-17" });
     chat = model.startChat({
       history: [],
       generationConfig: {
